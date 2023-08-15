@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border: 1px solid rgba(180, 180, 182, 0.81);
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 5px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(66, 66, 66, 0.87);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(59, 59, 59, 0.87);
+  box-shadow: 0px 0px 10px 0px rgba(80, 80, 80, 0.87);
 }
-
-.App-link {
-  color: #61dafb;
+.error{
+  color: #ff3c3c;
+  margin-left: 10px;
+  font-size: 12px;
+  margin-bottom: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-field {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(170, 172, 176, 0.95);
+  padding: 5px;
+}
+.select-field {
+  width: 260px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(170, 172, 176, 0.95);
+  padding: 5px;
+}
+.select-field:hover {
+  border: 1px solid rgba(82, 134, 238, 0.95);
+}
+.select-field:before {
+  border: 1px solid rgba(24, 92, 229, 0.95);
+}
+.checkbox-input{
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.checkbox{
+  width: 30px!important;
+  height: 30px!important;
+}
+.submit-button {
+  width:265px;
+  height:40px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  background-color: #ff3c3c;
+  border:none;
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #f55c5c;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.submit-button:active {
+  background-color: #c20404;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.text-form{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
